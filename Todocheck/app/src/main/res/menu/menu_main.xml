@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cw.todocheck.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort_by_task_asc"
+        android:orderInCategory="101"
+        android:title="Sort by ToDo (A-Z)"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_by_task_desc"
+        android:orderInCategory="102"
+        android:title="Sort by ToDo (Z-A)"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_priority"
+        android:orderInCategory="103"
+        android:title="Sort by Priority"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_due_date"
+        android:orderInCategory="104"
+        android:title="Sort by Due Date"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort_keywords"
+        android:orderInCategory="105"
+        android:title="Sort by Keywords"
+        app:showAsAction="never" />
+</menu>
